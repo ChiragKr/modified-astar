@@ -157,7 +157,7 @@ function modified_astar(heuristic) {
 function draw() {
 
   // calling astar in each draw loop
-  modified_astar(no_heuristic);
+  modified_astar(heuristic);
 
   // Draw current state of everything
   background(255);
